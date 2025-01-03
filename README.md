@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/elicheamshapiro/Schularick_Taylor_2012_Replication.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/elicheamshapiro/Schularick_Taylor_2012_Replication.jl)
 
-# Replication of Taylor and Schularick (AER 2012) in Julia
+# Replication of Schularick and Taylor (2012) in Julia
 # By Eli Cheam Shapiro
 
 ## Overview
