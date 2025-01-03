@@ -67,8 +67,8 @@ julia
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
-using SchularickTaylor2012Replication
-SchularickTaylor2012Replication.run()
+using Schularick_Taylor_2012_Replication
+Schularick_Taylor_2012_Replication.run()
 ```
 ---
 
