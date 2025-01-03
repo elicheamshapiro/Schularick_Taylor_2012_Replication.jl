@@ -87,7 +87,6 @@ Pkg.add("ShiftedArrays")
 Pkg.add("CategoricalArrays")
 Pkg.add("FixedEffectModels")
 Pkg.add("Plots")
-Pkg.add("XLSX")
 Pkg.add("StatFiles")
 Pkg.add("PanelDataTools")
 ```
