@@ -56,6 +56,12 @@ git clone https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.
 cd Schularick_Taylor_2012_Replication.jl
 ```
 
+### IN TERMINAL: Open Julia by entering the command
+
+```bash
+julia
+```
+
 ### IN JULIA: Run the following code
 ```julia
 using Pkg
