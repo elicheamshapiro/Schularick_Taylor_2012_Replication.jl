@@ -1,8 +1,5 @@
-using Schularick_Taylor_2012_Replication
-using Test
-
 #Load Packages
-using DataFrames, Test, PanelDataTools, ShiftedArrays
+using StatFiles, FixedEffectModels, Plots, Test, DataFrames, GLM, StatsModels, StatsBase, ShiftedArrays, PanelDataTools, RegressionTables
 
 ##### Function 1: Real Variables #####
 # Define the real_var function
