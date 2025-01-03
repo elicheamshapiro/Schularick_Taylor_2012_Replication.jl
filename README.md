@@ -39,6 +39,10 @@ OS: Sonoma 14.5
 
 ---
 ## How to run the code
+
+### Prerequisites
+Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`.
+
 ### IN TERMINAL: Clone your GitHub repository and navigate to the project directory
 ```bash
 git clone https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl
@@ -56,10 +60,8 @@ SchularickTaylor2012Replication.run()
 ```
 ---
 
-## Package Installation Instructions (If necssary)
-
-### Prerequisites
-Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`. To replicate the results, you need to install several Julia packages. Please manually install RegressionTables as seen below.
+## Package Installation Instructions (If necessary)
+To replicate the results, you need to install several Julia packages.
 
 ### Package Installation
 
