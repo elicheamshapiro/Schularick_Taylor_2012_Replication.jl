@@ -83,7 +83,7 @@ Step 6: Execute the following command: 'Schularick_Taylor_2012_Replication.run()
 ### Manual
 To run the code, set the directory as the downloaded folder, so run cd("YourDownloadPath/Schularick_Taylor_2012_Replication.jl-main").
 
-Then, add all the packages needed to run the code. In Julia REPL, type "]" and "add CategoricalArrays, CSV, CovarianceMatrices, DataFrames, DataFramesMeta, FixedEffectModels, GLM, Ipopt, JLD2, JuMP, MAT, PanelDataTools, Plots, PrettyTables, StatFiles, StatsBase, Statistics".
+Then, add all the packages needed to run the code. In Julia REPL, type "]" and "add StatFiles, FixedEffectModels, Plots, Test, DataFrames, GLM, StatsModels, StatsBase, ShiftedArrays, PanelDataTools, RegressionTables".
 
 Then, use backspace to come back to julia mode. Run 3_Code/Compile.jl to produce all the results. Tables will display in the console while figures will be saved in 4_Results folder.
 
