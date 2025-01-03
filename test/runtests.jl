@@ -1,5 +1,5 @@
 #Load Packages
-using StatFiles, FixedEffectModels, Plots, Test, DataFrames, GLM, StatsModels, StatsBase, ShiftedArrays, PanelDataTools, RegressionTables
+using Test, DataFrames, StatsModels, StatsBase, ShiftedArrays, PanelDataTools
 
 ##### Function 1: Real Variables #####
 # Define the real_var function
