@@ -36,13 +36,6 @@ RAM: 16 GB
 OS: Sonoma 14.5
 
 ---
-
-## Installation Instructions
-
-### Prerequisites
-Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`. To replicate the results, you need to install several Julia packages. Please manually install RegressionTables as seen below.
-
----
 ## How to run the code
 ### IN TERMINAL: Clone your GitHub repository and navigate to the project directory
 ```bash
@@ -60,7 +53,12 @@ using SchularickTaylor2012Replication
 SchularickTaylor2012Replication.run()
 ```
 ---
-## For package installation (if necessary)
+
+## Installation Instructions
+
+### Prerequisites
+Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`. To replicate the results, you need to install several Julia packages. Please manually install RegressionTables as seen below.
+
 ### Package Installation
 
 ```julia
