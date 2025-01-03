@@ -42,6 +42,25 @@ OS: Sonoma 14.5
 ### Prerequisites
 Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`. To replicate the results, you need to install several Julia packages. Please manually install RegressionTables as seen below.
 
+---
+## How to run the code
+### IN TERMINAL: Clone your GitHub repository and navigate to the project directory
+```bash
+git clone https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl
+
+cd Schularick_Taylor_2012_Replication.jl
+```
+
+### IN JULIA: Run the following code
+```julia
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+using SchularickTaylor2012Replication
+SchularickTaylor2012Replication.run()
+```
+---
+## For package installation (if necessary)
 ### Package Installation
 
 ```julia
@@ -63,28 +82,6 @@ Pkg.add("PanelDataTools")
 ```
 ] add RegressionTables #RegressionTables v0.7.8
 ```
----
-## How to run the code
-### Terminal
-Step 0: Download the package and set working directory to the main folder of the package, so run cd("YourDownloadPath/Schularick_Taylor_2012_Replication.jl-main").
-
-Step 1: Open the Julia REPL
-
-Step 2: Enter the Julia package manager by typing ']'
-
-Step 3: Enter the following command into the Julia package manager: 'add https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl'
-
-Step 4: Exit the Julia package manager and return to the Julia REPL by typing 'Backspace'
-
-Step 5: Enter the following command into the Julia REPL: 'using Schularick_Taylor_2012_Replication'
-
-Step 6: Execute the following command: 'Schularick_Taylor_2012_Replication.run()'. Following execution of the 'results()' function in the Julia REPL. Figures and tables will be saved to the results folder.
-
-### Manual
-To run the code, set the directory as the downloaded folder, so run cd("YourDownloadPath/Schularick_Taylor_2012_Replication.jl-main").
-
-Then, add all the packages needed to run the code. In Julia REPL, type "]" and "add StatFiles, FixedEffectModels, Plots, Test, DataFrames, GLM, StatsModels, StatsBase, ShiftedArrays, PanelDataTools, RegressionTables".
-
 ---
 
 ## Inputs and outputs table
