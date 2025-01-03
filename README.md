@@ -7,7 +7,7 @@
 # By Eli Cheam Shapiro
 
 ## Overview
-The replication was project created for the Computational Economics PhD course taught by Dr. Florian Oswald at Sciences Po, Paris in the Fall semester of 2024: https://floswald.github.io/NumericalMethods/
+The replication is a project created for the Computational Economics PhD course taught by Dr. Florian Oswald at Sciences Po, Paris in the Fall semester of 2024: https://floswald.github.io/NumericalMethods/
 
 This repository contains a Julia-based replication of the seminal paper "Credit Booms Gone Bust: Monetary Policy, Leverage Cycles, and Financial Crises, 1870-2008" by Moritz Schularick and Alan M. Taylor (AER 2012), which examines the long-run relationships between credit growth and financial crises. This analysis includes data preparation, econometric modeling, and graphical results similar to those presented in the paper. 
 
@@ -31,8 +31,10 @@ panel17.dta is the original dataset from the paper and can be obtained from the 
 
 ### Running time of reproducing all the results: 36 seconds.
 
-CPU: Apple M2
-RAM: 16 GB
+CPU: Apple M2,
+
+RAM: 16 GB,
+
 OS: Sonoma 14.5
 
 ---
@@ -54,7 +56,7 @@ SchularickTaylor2012Replication.run()
 ```
 ---
 
-## Installation Instructions
+## Package Installation Instructions (If necssary)
 
 ### Prerequisites
 Ensure you have Julia installed on your system. This code has been tested with Julia version `1.10.2`. To replicate the results, you need to install several Julia packages. Please manually install RegressionTables as seen below.
