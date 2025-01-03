@@ -61,7 +61,7 @@ Pkg.add("PanelDataTools")
 
 #### Be sure to install RegressionTables MANUALLY! (The package supports exporting regression tables in Latex in this version)
 ```
-] add RegressionTables
+] add RegressionTables #RegressionTables v0.7.8
 ```
 ---
 ## How to run the code
