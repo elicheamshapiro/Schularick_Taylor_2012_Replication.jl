@@ -85,10 +85,6 @@ To run the code, set the directory as the downloaded folder, so run cd("YourDown
 
 Then, add all the packages needed to run the code. In Julia REPL, type "]" and "add StatFiles, FixedEffectModels, Plots, Test, DataFrames, GLM, StatsModels, StatsBase, ShiftedArrays, PanelDataTools, RegressionTables".
 
-Then, use backspace to come back to julia mode. Run 3_Code/Compile.jl to produce all the results. Tables will display in the console while figures will be saved in 4_Results folder.
-
-To produce the intermediate results for tables 1, 2 and figures 1,2, run all the files from 3_Code that are not functions: Baseline.jl, BKRbaseline.jl, Crosssection.jl, BKRcrosssection.jl, Crosssection_within.jl, PlusAcrossVillages.jl, BKRPlusAcrossVillages.jl.
-
 ---
 
 ## Inputs and outputs table
