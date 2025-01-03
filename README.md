@@ -1,5 +1,6 @@
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://elicheamshapiro.github.io/Schularick_Taylor_2012_Replication.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://elicheamshapiro.github.io/Schularick_Taylor_2012_Replication.jl/dev/)
+[![Build Status](https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/elicheamshapiro/Schularick_Taylor_2012_Replication.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 # Replication of Schularick and Taylor (2012) in Julia
 # By Eli Cheam Shapiro
@@ -66,32 +67,7 @@ using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
 using Schularick_Taylor_2012_Replication
-Schularick_Taylor_2012_Replication.run()
-```
----
-
-## Package Installation Instructions (If necessary)
-To replicate the results, you need to install several Julia packages.
-
-### Package Installation
-
-```julia
-using Pkg
-Pkg.add("DataFrames")
-Pkg.add("GLM")
-Pkg.add("StatsModels")
-Pkg.add("StatsBase")
-Pkg.add("ShiftedArrays")
-Pkg.add("CategoricalArrays")
-Pkg.add("FixedEffectModels")
-Pkg.add("Plots")
-Pkg.add("StatFiles")
-Pkg.add("PanelDataTools")
-```
-
-#### Be sure to install RegressionTables MANUALLY! (The package supports exporting regression tables in Latex in this version)
-```
-] add RegressionTables # For RegressionTables v0.7.8
+SchularickTaylor2012Replication.run()
 ```
 ---
 
