@@ -66,7 +66,7 @@ using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
 using Schularick_Taylor_2012_Replication
-SchularickTaylor2012Replication.run()
+Schularick_Taylor_2012_Replication.run()
 ```
 ---
 
