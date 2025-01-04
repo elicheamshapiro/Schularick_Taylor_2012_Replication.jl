@@ -39,13 +39,9 @@ OS: Sonoma 14.5
 ## How to run the code
 
 ### Prerequisites
-Ensure you have Julia installed on your system. This code has been tested with Julia version `1.11.2`. If Julia is not installed, enter in your terminal: 
+Ensure you have Julia installed on your system. This code has been tested with Julia version `1.11.2`. If Julia is not installed, follow instructions at this link to install: 'https://julialang.org/downloads/'
 
-```bash
-curl -fsSL https://install.julialang.org | sh
-```
-
-if problems occur, please see 'https://julialang.org/downloads/'. 
+if problems occur, please see . 
 
 ### IN TERMINAL: Clone your GitHub repository and navigate to the project directory
 ```bash
